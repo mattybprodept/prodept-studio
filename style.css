@@ -461,6 +461,25 @@ img {
   background: var(--white);
 }
 
+.service-card--coming-soon {
+  opacity: 0.6;
+  border: 1px dashed var(--mid-grey);
+}
+
+.coming-soon-tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--white);
+  background: var(--black);
+  padding: 3px 8px;
+  margin-left: 10px;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
 .service-card__num {
   font-family: var(--font-display);
   font-weight: 700;
